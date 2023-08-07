@@ -29,40 +29,46 @@
        </div>
        <script>
         //    team member 1
+           
+           const teamember = document.querySelector("#member")
            const teamrole = document.querySelector("#team")
-            
-            teamrole.addEventListener('mouseover',()=>{
-                teamrole.innerHTML = 'web developer';
-            })
-            teamrole.addEventListener('mouseout',()=>{
+
+            teamember.addEventListener('mouseover',()=>{
                 teamrole.innerHTML = 'ian chacha';
             })
+
+            teamember.addEventListener('mouseout',()=>{
+                teamrole.innerHTML = 'developer';
+            })
         //    team member 2
+           const teamember2 = document.querySelector("#member2")
            const teamrole2 = document.querySelector("#team2")
             
-            teamrole2.addEventListener('mouseover',()=>{
-                teamrole2.innerHTML = 'web developer';
-            }) 
-            teamrole2.addEventListener('mouseout',()=>{
+            teamember2.addEventListener('mouseover',()=>{
                 teamrole2.innerHTML = 'paul liech';
+            }) 
+            teamember2.addEventListener('mouseout',()=>{
+                teamrole2.innerHTML = 'developer';
             })
         //    team member 3
+           const teamember3 = document.querySelector("#member3") 
            const teamrole3 = document.querySelector("#team3")
             
-            teamrole3.addEventListener('mouseover',()=>{
-                teamrole3.innerHTML = 'web developer';
-            })
-            teamrole3.addEventListener('mouseout',()=>{
+            teamember3.addEventListener('mouseover',()=>{
                 teamrole3.innerHTML = 'denis musumbi';
             })
+            teamember3.addEventListener('mouseout',()=>{
+                teamrole3.innerHTML = 'developer';
+            })
         //    team member 4
+           const teamember4 = document.querySelector("#member4")
            const teamrole4 = document.querySelector("#team4")
             
-            teamrole4.addEventListener('mouseover',()=>{
-                teamrole4.innerHTML = 'graphic designer';
+            teamember4.addEventListener('mouseover',()=>{
+                teamrole4.innerHTML = 'dennoh';
             })
-            teamrole4.addEventListener('mouseout',()=>{
-                teamrole4.innerHTML = 'denno';
+            teamember4.addEventListener('mouseout',()=>{
+                teamrole4.innerHTML = 'graphic designer';
             })
        </script>
      </body>

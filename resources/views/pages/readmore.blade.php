@@ -57,12 +57,12 @@
                 {{-- team member 1 --}}
                 <div class="flex flex-col space-y-1 items-center ">
                     
-                        <div class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
+                        <div id="member" class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
                             <div class=" relative bg-red-600 rounded-full">
                             <div  class="bg-white rounded-full p-1 block transform transition hover:rotate-6">
                                 <img src="../images/chacha.jpg" alt="" class="h-48 w-48 rounded-full">
                             </div>
-                            <span id="team" class="teamspan">ian chacha</span>
+                            <span id="team" class="teamspan">Developer</span>
                             </div>
                         </div>
                     
@@ -71,12 +71,12 @@
                 {{-- team member 2 --}}
                 <div class="flex flex-col space-y-1 items-center">
                     
-                    <div class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
+                    <div id="member2" class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
                         <div class=" relative bg-red-600 rounded-full">
                         <div href="" class="bg-white rounded-full p-1 block transform transition hover:rotate-6">
                             <img src="../images/lyech.jpg" alt="" class="h-48 w-48 rounded-full">
                         </div>
-                        <span id="team2" class="teamspan">paul liech</span>
+                        <span id="team2" class="teamspan">developer</span>
                         </div>
                     </div>
                     
@@ -85,12 +85,12 @@
                 {{-- team member 3 --}}
                 <div class="flex flex-col space-y-1 items-center">
                     
-                    <div class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
+                    <div  id="member3" class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
                         <div class=" relative bg-red-600 rounded-full">
                         <div  class="bg-white rounded-full p-1 block transform transition hover:rotate-6">
                             <img src="../images/deno.jpg" alt="" class="h-48 w-48 rounded-full">
                         </div>
-                        <span id="team3" class="teamspan">ian chacha</span>
+                        <span id="team3" class="teamspan">developer</span>
                         </div>
                     </div>
                     
@@ -99,12 +99,12 @@
                 {{-- team member 4 --}}
                 <div class="flex flex-col space-y-1 items-center">
                     
-                    <div class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
+                    <div  id="member4" class=" bg-gradient-to-tr from-red-600 to-blue-600 p-1 rounded-full " >
                         <div class=" relative bg-red-600 rounded-full">
                         <div  class="bg-white rounded-full p-1 block transform transition hover:rotate-6">
                             <img src="../images/chacha.jpg" alt="" class="h-48 w-48 rounded-full">
                         </div>
-                        <span id="team4" class="teamspan">denno</span>
+                        <span id="team4" class="teamspan">graphic designer</span>
                         </div>
                     </div>
                     
